@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ramalaxmi | Ayurevda | Holistic Healing</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Grand+Hotel' rel='stylesheet' type='text/css'>
+    <link href="https://file.myfontastic.com/ehZhgKgGDVn6nysmhDPuK/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section  fp-section active fp-table completely" id="section0">
+            <div class="fp-tableCell">
+                <div class="layer">
+                    <h1>Hello, I am <strong>Dr.Ramalaxmi </strong></h1>
+                    <h2>Ayurvedic Physician since 1987</h2>
+                    <img src="/imgs/logo.png" alt="Ramalaxmi">
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <h2>Expertise</h2>
+            <div class="expertise container">
+                <div class="row">
+                    <div class="expertise-item col c4">
+                        <div data-icon="a" class="icon"></div>
+                        <span>General Disease</span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="b" class="icon"></div>
+                        <span>Harmonal Disrorder</span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="c" class="icon"></div>
+                        <span>Women Specialist</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="expertise-item col c4">
+                        <div data-icon="d" class="icon"></div>
+                        <span>Chest Disorders </span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="e" class="icon"></div>
+                        <span>Kidney Disorders </span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="f" class="icon"></div>
+                        <span>Liver Disorders </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="expertise-item col c4">
+                        <div data-icon="g" class="icon"></div>
+                        <span>Pains </span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="h" class="icon"></div>
+                        <span>Neurological Disorders </span>
+                    </div>
+                    <div class="expertise-item col c4">
+                        <div data-icon="i" class="icon"></div>
+                        <span>Skin Diseases</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <h2>Consult</h2>
+            <form method="post" name="healForm" action="givelove.php" class="container">
+                <div class="row">
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="firstname" type="text" name="firstname" required />
+                            <span class="bar"></span>
+                            <label for="firstname">First Name </label>
+                        </div>
+                    </div>
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="lastname" type="text" name="lastname" required/>
+                            <span class="bar"></span>
+                            <label for="lastname">Last Name </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="dob" type="text" name="dob" required/>
+                            <span class="bar"></span>
+                            <label for="dob">Date of Birth </label>
+                        </div>
+                    </div>
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="gender" type="text" name="gender" required/>
+                            <span class="bar"></span>
+                            <label for="gender">Gender </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="mobile" type="tel" name="mobile" required/>
+                            <span class="bar"></span>
+                            <label for="mobile">Mobile Number</label>
+                        </div>
+                    </div>
+                    <div class="col c6">
+                        <div class="group">
+                            <input id="email" type="email" name="email" required/>
+                            <span class="bar"></span>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col c12">
+                        <div class="single group">
+                            <textarea name="concern" id="concern" cols="30" required></textarea>
+                            <span class="bar"></span>
+                            <label for="concern">Describe your concern (Kindly mention your current medication)</label>
+                        </div>
+                    </div>
+                </div>
+               
+                <input type="submit" name="submit" value="Submit" placeholder="">
+            </form>
+        </div>
+        <!-- <div class="section fp-auto-height" id="section3">
+            
+                <h2>Contact @ </h2>
+                <div class="social-reach">
+                    <div class="social-reach-skype social-reach-item">
+                        <img src="/imgs/skype.png" alt="skype">
+                        <span>drramalaxmi</span>
+                    </div>
+                    <div class="social-reach-facebook social-reach-item">
+                        <img src="/imgs/fb.png" alt="facebook">
+                        <span>drramalaxmi</span>
+                    </div>
+                    <div class="social-reach-twitter social-reach-item">
+                        <img src="/imgs/twitter.png" alt="twitter">
+                        <span>drramalaxmi</span>
+                    </div>
+                </div>
+            
+        </div> -->
+    </div>
+    <script src="js/main.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            sectionsColor: ['#1bbc9b', '#FFF', '#ac9479', 'whitesmoke'],
+            anchors: ['home', 'expertise', 'consult', 'lastPage'],
+            scrollingSpeed: 1000,
+            navigation: false,
+            navigationPosition: 'right',
+            navigationTooltips: ['Home', 'Expertise', 'Consult', 'Reach Me'],
+            setMouseWheelScrolling: 'false',
+            setAllowScrolling:'false'
+        });
+    });
+    </script>
+</body>
+
+</html>
